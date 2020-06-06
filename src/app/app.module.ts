@@ -6,17 +6,19 @@ import { LoginComponent } from './login/login.component';
 
 //Modulos
 import { PagesModule } from './pages/pages.module';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    LoginComponent 
+    LoginComponent
   ],
   imports: [
     BrowserModule,
     PagesModule,
     AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
