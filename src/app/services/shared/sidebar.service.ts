@@ -11,7 +11,10 @@ export class SidebarService {
         {titulo:'Dashboard',url:'/dashboard'},
         {titulo:'ProgessBar',url:'/progress'},
         {titulo:'Graficas',url:'/graficas1'},
-        {titulo:'AccountSettings',url:'/account-settings'}
+        {titulo:'AccountSettings',url:'/account-settings'},
+        {titulo:'Promesas',url:'/promesas'},
+        {titulo:'Rxjs',url:'/rxjs'},
+
       ]
     }
   ]
